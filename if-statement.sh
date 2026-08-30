@@ -1,16 +1,13 @@
 #!/bin/bash
 
-score=75
+command=/sbin/ping
 
-if [ $score -gt 60 ]
+if [ -f $command ]
 then
-	echo "Exelent"
-
-elif [ $score -gt 70 ]
-then
-	echo 'Good job!'
+	echo "file was found now execute the command"
+	$command -c 3  scanme.nmap.org
 
 else
-	echo "Failed"
+	echo "command not found and must be installed"
 
 fi
