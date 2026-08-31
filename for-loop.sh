@@ -1,8 +1,10 @@
 #!/bin/bash
 
-messages=('John' 'Jake' 'Josh')
+directory="/Users/lex/test/data"
 
-for message in "${messages[@]}"
+for file in *.txt
 do
-    echo "$message"
+	echo "Making backup for $file"
+	cp $file "$file.bak"
 done
+
