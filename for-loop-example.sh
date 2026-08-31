@@ -1,6 +1,9 @@
 #!/bin/bash
 
-for counter in {1..5}
+directory="/Users/lex/Desktop/test/data"
+
+for file in "$directory"/*.txt
 do
-	echo "Number: $counter"
+    echo "Making backup for $file"
+    cp "$file" "$file.bak"
 done

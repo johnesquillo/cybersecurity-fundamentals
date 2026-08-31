@@ -1,0 +1,9 @@
+#!/bin/bash
+
+directory="/Users/lex/Desktop/test/data"
+
+for file in "$directory"/*
+do
+	echo "Making backup for $file"
+	cp $file "$file.bak"
+done
