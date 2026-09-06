@@ -13,6 +13,9 @@ do
 then
 	echo "Host $ip is not reachable"
 	echo "$ip" >> live_host.txt
+else
+	echo "Host $ip is not reachable"
+
 fi
 done
 
