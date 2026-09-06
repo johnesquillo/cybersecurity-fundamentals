@@ -9,7 +9,7 @@ do
 
 	echo "Checking $ip..."
 
-	if ping  -c 1 -W 1000 "$ip" > /dev/null 2>&1
+	if ping  -c 1 -W 1000 "$ip" >> result.txt
 then
 	echo "Host $ip is not reachable"
 	echo "$ip" >> live_host.txt
