@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 network="10.82.90."
@@ -9,13 +10,13 @@ do
 
 	echo "Checking $ip..."
 
-	if ping  -c 1 -W 1000 "$ip" >> result.txt
+	if ping -c 1 -W 1000 "$ip" >> results.txt
 then
-	echo "Host $ip is not reachable"
-	echo "$ip" >> live_host.txt
+	echo "Host $ip is reachable"
+	echo "$ip" >> live_hosts.txt
 else
 	echo "Host $ip is not reachable"
-
 fi
 done
+
 
