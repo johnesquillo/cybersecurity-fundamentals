@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-network="10.82.90."
+network="192.168.110."
 
 for host in {1..254}
 do
