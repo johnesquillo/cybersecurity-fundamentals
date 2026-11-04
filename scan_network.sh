@@ -1,0 +1,22 @@
+
+#!/bin/bash
+
+network="192.168.110."
+
+for host in {1..254}
+do
+
+	ip="${network}${host}"
+
+	echo "Checking $ip..."
+
+	if ping -c 1 -W 1000 "$ip" >> results.txt
+then
+	echo "Host $ip is reachable"
+	echo "$ip" >> live_hosts.txt
+else
+	echo "Host $ip is not reachable"
+fi
+done
+
+

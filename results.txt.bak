@@ -1,0 +1,24 @@
+Hostname: 
+.			491399	IN	NS	c.root-servers.net.
+.			491399	IN	NS	k.root-servers.net.
+.			491399	IN	NS	i.root-servers.net.
+.			491399	IN	NS	h.root-servers.net.
+.			491399	IN	NS	l.root-servers.net.
+.			491399	IN	NS	b.root-servers.net.
+.			491399	IN	NS	m.root-servers.net.
+.			491399	IN	NS	a.root-servers.net.
+.			491399	IN	NS	e.root-servers.net.
+.			491399	IN	NS	j.root-servers.net.
+.			491399	IN	NS	d.root-servers.net.
+.			491399	IN	NS	f.root-servers.net.
+.			491399	IN	NS	g.root-servers.net.
+Hostname: localhost
+localhost.		0	IN	A	127.0.0.1
+Hostname: example.com
+example.com.		245	IN	A	104.20.23.154
+example.com.		245	IN	A	172.66.147.243
+Hostname: debian.org
+debian.org.		591	IN	A	151.101.2.132
+debian.org.		591	IN	A	151.101.130.132
+debian.org.		591	IN	A	151.101.66.132
+debian.org.		591	IN	A	151.101.194.132
