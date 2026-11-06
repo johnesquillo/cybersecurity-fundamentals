@@ -1,14 +1,2 @@
-#!/bin/bash
-
-echo 'Hello World!'
-
-echo "current date"
-date
-
-echo "current directory"
-pwd
-
-echo "current directory contents"
-ls -la
-
-
+00000000: 4861 636b 696e 6720 6973 2061 2070 6173  Hacking is a pas
+00000010: 7369 6f6e 0a                             sion.
