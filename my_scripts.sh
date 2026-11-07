@@ -1,3 +1,2 @@
-Hacking is fun
-Hacking is a passion
-Hacking is a passion
+00000000: 5468 6973 2069 7320 6120 6d65 7373 6167  This is a messag
+00000010: 650a                                     e.
